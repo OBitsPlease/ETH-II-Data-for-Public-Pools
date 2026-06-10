@@ -15,17 +15,73 @@
     "ethash": {}
   },
   "nonce": "0x0000000000000042",
-  "timestamp": "0x6a21d44f",
+  "timestamp": "0x6a28f6cd",
   "extraData": "0x45544849492070726f6d6973652e2045544820322e302077696c6c206265206d696e6561626c6520666f72657665722c207369676e65642042697473506c6561736559542e",
   "gasLimit": "0x47b760",
-  "difficulty": "0x113ABE6400",
+  "difficulty": "0xfd1747d9d",
   "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "coinbase": "0x0000000000000000000000000000000000000000",
   "baseFeePerGas": "0x1DCD6500",
   "alloc": {
-    "0x924702c55f755AaE14634b8ad41c74F4938705e6": { "balance": "0x118ADAD71793DDFD99C8" },
-    "0x5d191cB1F92EEA4eBA581107CD0Ec1477D1f6ac6": { "balance": "0x1B1AE4D6E2EF500000" },
-    "0xEd383d14dfAd55dd31acB39100a4af12aFAE1911": { "balance": "0xD4C4EDEAFD12AA0000" },
-    "0xb01952B1b5a02335D768eA018C3A1847D9D213d0": { "balance": "0x32E3998E9B0641C0000" }
+    "0x924702c55f755AaE14634b8ad41c74F4938705e6": {
+      "balance": "0x135dbb10ce65e25619c8"
+    },
+    "0x5b64132248625daFc13fCdC0E117a31C14F17522": {
+      "balance": "0x945b75c983e3be1e200"
+    },
+    "0xb01952B1b5a02335D768eA018C3A1847D9D213d0": {
+      "balance": "0x8bee8432ad911c02880"
+    },
+    "0x016f8cb7e3E1655C7509Ac7a6d871D7f9ea682Ed": {
+      "balance": "0x3f0a1c4abed0efbe400"
+    },
+    "0xbAA2144072f96b162017D47efdA18159Cba566e9": {
+      "balance": "0x19455d745384da2f680"
+    },
+    "0x549A65C5D9AFBfcD487778336163EB7DB8Aa6824": {
+      "balance": "0x182eac9b2aa463b2600"
+    },
+    "0xC958ECdb379d7e8CC9ca2caBD7bB87A61675815B": {
+      "balance": "0x176defbfef70b99f400"
+    },
+    "0xf12cd4428B1C521bE974B2724372A24a832EaC3A": {
+      "balance": "0x1577869bfb8cf9ca400"
+    },
+    "0x47631EF746572f5002835864bd523f4E2B12890B": {
+      "balance": "0x13271bf27a6f0487400"
+    },
+    "0xEd383d14dfAd55dd31acB39100a4af12aFAE1911": {
+      "balance": "0x12abb7e1b60c2980000"
+    },
+    "0x586e76484f8a31C4E402273282545FFd34b6A20C": {
+      "balance": "0xba7f0f3bc6363fd000"
+    },
+    "0x87A7a8bE5dcE123B53C836B1f50B8Cd14A78d40D": {
+      "balance": "0x794a2995bf28e1f000"
+    },
+    "0x4B650688274A78B715E5cC055472D330e23F1a36": {
+      "balance": "0x3eb2f57fd2963bdc00"
+    },
+    "0xeAD66d67AD91054547219524d5977132Ec22CE6D": {
+      "balance": "0x26d0a5ab22b09ef400"
+    },
+    "0x0000000000000000000000000000000000000000": {
+      "balance": "0x1c71acde052f760000"
+    },
+    "0x5d191cB1F92EEA4eBA581107CD0Ec1477D1f6ac6": {
+      "balance": "0x1b1ae4d6e2ef500000"
+    },
+    "0x5cD83F0C0d4Ab4daA5a96Cb55d7Fa637dF76C146": {
+      "balance": "0x14ee36c05ac2449800"
+    },
+    "0x1fdC3f745612B5b6dBe93c15aEf2ee14dA901838": {
+      "balance": "0x12c8a74a2a10da1400"
+    },
+    "0xB7294acBb72C5dD0e2d6b19cB311db089c80350C": {
+      "balance": "0xa326971674af5a000"
+    },
+    "0x43ab8EF8A54aA2bd065251c62ADe79A510b524Ba": {
+      "balance": "0x8a0d78de58a553000"
+    }
   }
 }
