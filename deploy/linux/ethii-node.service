@@ -1,0 +1,15 @@
+[Unit]
+Description=ETHII Node
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/root/ethii --config /root/ethii-data/config.toml --datadir /root/ethii-data --networkid 20482 --syncmode full --snapshot=false --gcmode archive --state.scheme hash --http --http.addr 127.0.0.1 --http.port 8545 --http.corsdomain * --http.vhosts * --http.api eth,net,web3,miner,admin,debug,ethash --bootnodes enode://05f7f1c669368d16829699b6e1ddffbd8a3fee08a1301cac33922ad05f56fd53aadbca02f326d6b1c863c560c9adf30a75b44d45e7448ebb41d9c47235204fdf@87.99.142.128:30303,enode://b096bfae7d5e9a7cc985e68726280b75b0a0ef80ce419db5ed5152e9bee7bf83d35ae8b13b34879a0bf36d73a9a674bb61b02f3777745ed770e3150a39c7de5b@91.99.231.217:30303 --maxpeers 50 --nat extip:91.99.231.217 --miner.pending.feeRecipient 0x924702c55f755AaE14634b8ad41c74F4938705e6
+ExecStartPost=/bin/bash -c "sleep 3 && /root/start-miner.sh &"
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
